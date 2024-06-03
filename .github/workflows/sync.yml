@@ -1,0 +1,16 @@
+name: Sync Fork
+
+on:
+  schedule:
+    - cron: '0 16 * * *' # UTC 16:00 = GMT+8 00:00
+    - cron: '0 4 * * *'  # UTC 04:00 = GMT+8 12:00
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sync fork
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh repo sync -b main $GITHUB_REPOSITORY
