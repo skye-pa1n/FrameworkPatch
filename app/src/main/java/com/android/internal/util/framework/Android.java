@@ -55,16 +55,16 @@ public final class Android {
     private static final CertificateFactory certificateFactory;
 
     static {
-        map.put("MANUFACTURER", "Google");
-        map.put("MODEL", "Pixel");
-        map.put("FINGERPRINT", "google/sailfish/sailfish:8.1.0/OPM1.171019.011/4448085:user/release-keys");
-        map.put("BRAND", "google");
-        map.put("PRODUCT", "sailfish");
-        map.put("DEVICE", "sailfish");
-        map.put("RELEASE", "8.1.0");
-        map.put("ID", "OPM1.171019.011");
-        map.put("INCREMENTAL", "4448085");
-        map.put("SECURITY_PATCH", "2017-12-05");
+        map.put("MANUFACTURER", "Samsung");
+        map.put("MODEL", "r8q");
+        map.put("FINGERPRINT", "samsung/r8qxx/r8q:14/AP2A.240905.003/G780GXXSAEXE5:user/release-keys");
+        map.put("BRAND", "samsung");
+        map.put("PRODUCT", "r8q");
+        map.put("DEVICE", "r8q");
+        map.put("RELEASE", "14");
+        map.put("ID", "AP2A.240905.003");
+        map.put("INCREMENTAL", "G780GXXSAEXE5");
+        map.put("SECURITY_PATCH", "2024-08-10");
         map.put("TYPE", "user");
         map.put("TAGS", "release-keys");
         try {
