@@ -55,11 +55,11 @@ public final class Android {
     private static final CertificateFactory certificateFactory;
 
     static {
-        map.put("MANUFACTURER", "Samsung");
+        map.put("MANUFACTURER", "samsung");
         map.put("MODEL", "r8q");
         map.put("FINGERPRINT", "samsung/r8qxx/r8q:14/AP2A.240905.003/G780GXXSAEXE5:user/release-keys");
         map.put("BRAND", "samsung");
-        map.put("PRODUCT", "r8q");
+        map.put("PRODUCT", "r8qxx");
         map.put("DEVICE", "r8q");
         map.put("RELEASE", "14");
         map.put("ID", "AP2A.240905.003");
